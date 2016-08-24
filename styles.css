@@ -1,0 +1,144 @@
+* {
+  /*outline: 1px solid blue;*/
+}
+
+.content-wrapper {
+  display: block;
+  width: 77%;
+  margin: 12px auto 0 auto;
+  padding-top: 20px;
+  padding-bottom: 5px;
+  /*outline: 1px solid blue;*/
+  font-family: sans-serif;
+}
+
+p {
+  margin-top: 0;
+}
+
+.text-wrapper {
+  font-size: 20px;
+  line-height: 28px;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.wikimedia-bolded {
+  font-weight: bold;
+}
+
+a {
+  text-decoration: none;
+  color: #0645ad;
+}
+
+.welcome-message {
+  text-align: right;
+  font-weight: bold;
+}
+
+.icons-wrapper {
+  margin-top: 60px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-content: space-around;
+  width: 100%;
+}
+
+.icons {
+  width: 140px;
+  height: 150px;
+  margin: 1em;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.wikipedia-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/enwiki-2x.png");
+}
+
+.wiktionary-icon {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/WiktionaryEn.svg/270px-WiktionaryEn.svg.png");
+}
+
+.wikiquote-icon {
+  background-image: url("https://upload.wikimedia.org/wikipedia/meta/5/5b/Wikiquote-logo_project_2x.png");
+}
+
+.wikibooks-icon {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Wikibooks-logo-en-noslogan.svg/270px-Wikibooks-logo-en-noslogan.svg.png");
+}
+
+.wikisource-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/wikisource.png");
+}
+
+.wikinews-icon {
+  background-image: url("https://upload.wikimedia.org/wikinews/en/b/bc/Wiki.png");
+}
+
+.wikiversity-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/enwikiversity.png");
+}
+
+.wikispecies-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/specieswiki.png");
+}
+
+.mediawiki-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/mediawikiwiki.png");
+}
+
+.wikidata-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/wikidatawiki.png");
+}
+
+.wikimedia-commons-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/commonswiki.png");
+}
+
+.wikivoyage-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/wikivoyage.png");
+}
+
+.wikimedia-metawiki-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/metawiki-2x.png");
+}
+
+.wikimedia-incubator-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/incubatorwiki.png");
+}
+
+.wikimedia-labs-icon {
+  background-image: url("https://wikitech.wikimedia.org/w/images/c/cf/Labslogo_thumb.png");
+}
+
+.wikimedia-foundation-icon {
+  background-image: url("https://www.wikimedia.org/static/images/project-logos/foundationwiki-2x.png");
+}
+
+.dividing-line {
+  width: 90%;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-content {
+  text-align: center;
+  font-size: 13.5px;
+}
+
+.footer-text {
+  margin-top: 1em;
+  line-height: 20px;
+}
+
+.footer-links {
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
